@@ -1,0 +1,60 @@
+header ul li ul li a.Logout {
+    color: #ff0000;
+}
+
+.accountForm {
+    width: 400px;
+    background: #f1f1f1;
+    height: 400px;
+    padding: 50px 40px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.accountForm h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.information {
+    padding: 20px 10px;
+}
+
+.label {
+    float: left;
+    display: inline-block;
+}
+
+.formAccount {
+    float: right;
+}
+
+.boxClass {
+    display: none;
+    width: 500px;
+    height: auto;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+}
+
+.submitAcount {
+    font-size: 18px;
+    display: inline;
+    margin: 50px 55px;
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+    background: #008489;
+}

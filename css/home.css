@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    width: auto;
+    height: 70px;
+    background: #008489;
+}
+
+header * {
+    color: #ffffff;
+}
+
+header .logo {
+   float: left;
+   height: inherit;
+   margin-left: 2em;
+   cursor: pointer;
+}
+.aLogo {
+    text-decoration: none;
+}
+header .logoText {
+    margin: 10px;
+}
+
+header .logoText span{
+   color: #1bc6e5;
+}
+
+header ul {
+   float: right;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+
+header ul li {
+  float: left;
+}
+
+header ul li ul{
+     position:absolute;
+     top: 70px;
+     right: 0;
+     width: 185px;
+     display: none;
+}
+
+header ul li ul li {
+     width: 100%;
+}
+
+header ul li ul li a {
+     padding: 10px;
+     color: #5b5b5b;
+     background-color: #cbcbcb;
+}
+
+header ul li a{
+     display: block;
+     padding: 25px;
+     font-size: 1.2em;
+     text-decoration: none;
+}
+
+header ul li  a:hover{
+    background:#084d57;
+    transition: 0.7s;
+}
+
+header ul li:hover ul{
+    display: block;
+}
+
+header .menuTogge{
+    display: none;
+}
+
+.dispaly {
+    display: none;
+}
+.btnClose {
+    color: #f1f1f1;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block;
+}
+.btnCancer {
+    margin:auto;
+    position: absolute;
+    right: 25px;
+    top: 0;
+    font-size: 30px;
+    color: #000000;
+    border: none;
+    background: #f1f1f1;
+}
+
+#activity {
+    border-bottom: 2px solid #001c24;
+}

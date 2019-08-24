@@ -1,0 +1,92 @@
+.boxNode {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 30px 120px;
+    float: left;
+    display: inline-block;
+    background-color: #008489;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.boxNode:hover .icon{
+    display: none;
+}
+.boxNode:hover .dataNote{
+    display: block;
+}
+.dataFame {
+    margin: 10px 10px;
+}
+.factoryForm {
+    display: block;
+}
+.nodeCuont {
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.data {
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.icon{
+    color: #1f31fe;
+    font-size: 50px;
+}
+.dataNote{
+    display:none;
+}
+
+.setingForm {
+    width: 400px;
+    background: #f1f1f1;
+    height: auto;
+    padding: 50px 40px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.textGetwayid {
+    align-content: center;
+    margin: 30px 10px;
+    padding: 30px 10px;
+}
+
+#getwayid {
+    border: none;
+    color: none;
+    font-size: 30px;
+}
+
+.setingForm h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.setting {
+    padding: 20px 10px;
+}
+
+.labelNode {
+    float: left;
+    display: inline-block;
+}
+
+.formSetting {
+    float: right;
+}
+
+.submitAcount {
+    font-size: 18px;
+    display: inline;
+    margin: 50px 55px;
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+    background: #008489;
+}
